@@ -599,37 +599,6 @@ footer{
     .project-box{
         width: 80%;
     }
-
-	
-	.language-dropdown {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 100%; /* Take full width for alignment */
-        margin-top: 10px; /* Optional spacing */
-    }
-
-    .dropdown-content {
-        position: static; /* Make static for better alignment in responsive menu */
-        width: auto;
-        background-color: rgba(255, 255, 255, 0.9); /* Adjust background color */
-        box-shadow: none; /* Remove shadow in mobile */
-        border-radius: 0; /* Remove rounded corners */
-        text-align: center; /* Center-align items */
-    }
-
-    .dropdown-content a {
-        display: inline-block; /* Inline items */
-        margin: 5px 10px; /* Adjust spacing between languages */
-        padding: 5px 15px;
-        font-size: 16px;
-        color: #333; /* Adjust text color */
-    }
-
-    .dropdown-content a:hover {
-        background-color: #959b33; /* Match hover style */
-        color: white;
-    }	
 }
 /* ----- MEDIA QUERY == 540px / RESPONSIVE ----- */
 @media only screen and (max-width: 540px){
