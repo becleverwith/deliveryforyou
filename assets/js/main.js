@@ -87,3 +87,8 @@ sections.forEach(current =>{
 })
 }
 window.addEventListener('scroll', scrollActive)
+
+
+function scrollToContact() {
+  document.getElementById("contact").scrollIntoView({ behavior: "smooth" });
+}
