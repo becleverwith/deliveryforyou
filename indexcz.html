@@ -168,36 +168,40 @@
                 </div>
             </div>
         </section>
-       <!-- -------------- CONTACT BOX ---------------- -->
-       <section class="section" id="contact">
-          <div class="top-header">
-            <h1>Kontaktujte nás</h1>
-            <span>Máte otázky? Kontaktujte nás zde</span>
-          </div>
-          <div class="row">
-             <div class="col">
-                <div class="contact-info">
-                    <h2>My <i class="uil uil-corner-right-down"></i></h2>
-                    <p><i class="uil uil-envelope"></i> Email: deliveryforyoucz@gmail.com</p>
-                    <p><i class="uil uil-phone"></i> Tel: +420 708 770 000</p>
-                </div>
-             </div>
-             <div class="col">
-                <div class="form-control">
-                    <div class="form-inputs">
-                        <input type="text" class="input-field" placeholder="Jméno">
-                        <input type="text" class="input-field" placeholder="Email">
-                    </div>
-                    <div class="text-area">
-                        <textarea placeholder="Zpráva"></textarea>
-                    </div>
-                    <div class="form-button">
-                        <button class="btn">Odeslat <i class="uil uil-message"></i></button>
+       <!-- -------------- KONTAKT BOX ---------------- -->
+        <section class="section" id="contact">
+            <div class="top-header">
+                <h1>Kontaktujte nás</h1>
+                <span>Máte otázky? Kontaktujte nás zde</span>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div class="contact-info">
+                        <h2>My <i class="uil uil-corner-right-down"></i></h2>
+                        <p><i class="uil uil-envelope"></i> Email: deliveryforyoucz@gmail.com</p>
+                        <p><i class="uil uil-phone"></i> Tel: +420 708 770 000</p>
                     </div>
                 </div>
-             </div>
-          </div>
-       </section>
+                <div class="col">
+                    <div class="form-control">
+                        <!-- Updated Formspree action link -->
+                        <form action="https://formspree.io/f/meoqllap" method="POST">
+                            <div class="form-inputs">
+                                <input type="text" class="input-field" name="name" placeholder="Jméno" required>
+                                <input type="email" class="input-field" name="email" placeholder="Email" required>
+                            </div>
+                            <div class="text-area">
+                                <textarea name="message" placeholder="Zpráva" required></textarea>
+                            </div>
+                            <div class="form-button">
+                                <button type="submit" class="btn">Odeslat <i class="uil uil-message"></i></button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
     </main>
     <!-- --------------- FOOTER --------------- -->
     <footer>

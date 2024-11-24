@@ -157,7 +157,7 @@
             </div>
         </div>
     </section>
-    <!-- -------------- КОНТАКТНИЙ БЛОК ---------------- -->
+    <!-- -------------- КОНТАКТНА ФОРМА ---------------- -->
     <section class="section" id="contact">
         <div class="top-header">
             <h1>Зв'яжіться з нами</h1>
@@ -166,27 +166,31 @@
         <div class="row">
             <div class="col">
                 <div class="contact-info">
-                    <h2>З нами <i class="uil uil-corner-right-down"></i></h2>
-                    <p><i class="uil uil-envelope"></i> Електронна пошта: deliveryforyoucz@gmail.com</p>
-                    <p><i class="uil uil-phone"></i> Телефон: +420 708 770 000</p>
+                    <h2>Ми <i class="uil uil-corner-right-down"></i></h2>
+                    <p><i class="uil uil-envelope"></i> Email: deliveryforyoucz@gmail.com</p>
+                    <p><i class="uil uil-phone"></i> Тел: +420 708 770 000</p>
                 </div>
             </div>
             <div class="col">
                 <div class="form-control">
-                    <div class="form-inputs">
-                        <input type="text" class="input-field" placeholder="Ім'я">
-                        <input type="text" class="input-field" placeholder="Електронна пошта">
-                    </div>
-                    <div class="text-area">
-                        <textarea placeholder="Повідомлення"></textarea>
-                    </div>
-                    <div class="form-button">
-                        <button class="btn">Надіслати <i class="uil uil-message"></i></button>
-                    </div>
+                    <!-- Оновлена форма Formspree -->
+                    <form action="https://formspree.io/f/meoqllap" method="POST">
+                        <div class="form-inputs">
+                            <input type="text" class="input-field" name="name" placeholder="Ім'я" required>
+                            <input type="email" class="input-field" name="email" placeholder="Email" required>
+                        </div>
+                        <div class="text-area">
+                            <textarea name="message" placeholder="Повідомлення" required></textarea>
+                        </div>
+                        <div class="form-button">
+                            <button type="submit" class="btn">Відправити <i class="uil uil-message"></i></button>
+                        </div>
+                    </form>
                 </div>
             </div>
         </div>
     </section>
+
     </main>
     <!-- --------------- ФУТЕР --------------- -->
     <footer>
