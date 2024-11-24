@@ -523,15 +523,15 @@ footer{
         height: 320px;
     }
 }
-/* MEDIA QUERY FOR 900px */
+/* ----- MEDIA QUERY == 900px / RESPONSIVE ----- */
 @media only screen and (max-width: 900px) {
-    .nav-button {
+    .nav-button{
         display: none;
     }
-    .nav-menu.responsive {
+    .nav-menu.responsive{
         left: 0;
     }
-    .nav-menu {
+    .nav-menu{
         position: fixed;
         top: 80px;
         left: -100%;
@@ -545,38 +545,39 @@ footer{
         height: 90vh;
         transition: .3s;
     }
-    .nav_menu_list {
+    .nav_menu_list{
         flex-direction: column;
     }
-    .nav-menu-btn {
+    .nav-menu-btn{
         display: flex;
         align-items: center;
         justify-content: center;
     }
-    .featured-box {
-        display: flex; /* Ensure it's always flex */
-        flex-direction: row; /* Prevent collapsing into a column */
-        justify-content: space-between; /* Space between picture and text */
-        align-items: center; /* Vertically align content */
-        height: auto; /* Allow content to dictate height */
+    .featured-box{
+        flex-direction: column;
+        justify-content: center;
+        height: 100vh;
     }
-    .featured-text {
-        width: 50%; /* Keep text side-by-side with the image */
-        order: 0; /* Default order */
-        padding: 20px; /* Add padding for spacing */
+    .featured-text{
+        width: 100%;
+        order: 2;
+        justify-content: center;
+        align-content: flex-start;
+        min-height: 60vh;
     }
-    .social_icons {
+    .social_icons{
         margin-top: 2em;
     }
-    .featured-image {
-        width: 50%; /* Match the width of the text */
+    .featured-image{
+        order: 1;
         justify-content: center;
-        align-items: center;
+        min-height: 150px;
+        width: 100%;
+        margin-top: 65px;
     }
-    .image, .image img {
-        width: 100%; /* Keep image responsive */
-        max-width: 300px; /* Prevent it from becoming too large */
-        height: auto; /* Maintain aspect ratio */
+    .image, .image img{
+        width: 150px;
+        height: 150px;
     }
     .row{
         display: flex;
