@@ -531,6 +531,15 @@ footer{
     .nav-menu.responsive{
         left: 0;
     }
+
+	.featured-image {
+        width: 100%; /* Make the logo take full width */
+        height: auto; /* Keep aspect ratio */
+        display: block; /* Ensure the logo behaves like a block element */
+    }
+    .featured-text {
+        margin-top: 20px; /* Push the text down below the image */
+    }
     .nav-menu{
         position: fixed;
         top: 80px;
