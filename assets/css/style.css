@@ -519,8 +519,8 @@ footer{
         padding: 0;
     }
     .image, .image img{
-        width: 320px;
-        height: 320px;
+        width: 400px;
+        height: 400px;
     }
 }
 /* ----- MEDIA QUERY == 900px / RESPONSIVE ----- */
