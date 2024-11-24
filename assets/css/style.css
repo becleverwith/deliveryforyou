@@ -532,14 +532,7 @@ footer{
         left: 0;
     }
 
-	.featured-image {
-        width: 100%; /* Make the logo take full width */
-        height: auto; /* Keep aspect ratio */
-        display: block; /* Ensure the logo behaves like a block element */
-    }
-    .featured-text {
-        margin-top: 20px; /* Push the text down below the image */
-    }
+	
     .nav-menu{
         position: fixed;
         top: 80px;
@@ -580,9 +573,10 @@ footer{
     .featured-image{
         order: 1;
         justify-content: center;
-        min-height: 150px;
+        min-height: 250px;
         width: 100%;
         margin-top: 65px;
+		margin-bottom: 30px;
     }
     .image, .image img{
         width: 150px;
